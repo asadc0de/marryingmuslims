@@ -84,6 +84,14 @@ const Footer = () => {
                     Cookie Policy
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to={"/payment"}
+                    className="text-gray-400 hover:text-white text-base transition-colors"
+                  >
+                    Payments
+                  </Link>
+                </li>
               </ul>
             </div>
 

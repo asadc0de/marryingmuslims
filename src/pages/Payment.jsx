@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Check, Crown, Shield, Users, Eye, EyeOff, CreditCard } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const Payment = () => {
+    useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-rose-50 to-pink-200">
       <Header />
